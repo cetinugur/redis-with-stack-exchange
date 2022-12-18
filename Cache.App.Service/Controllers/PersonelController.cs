@@ -18,7 +18,13 @@ namespace Cache.App.Service.Controllers
         [HttpGet(Name = "GetPersonels")]
         public IEnumerable<Personel> Get()
         {
-            return personelService.Get();
+            return personelService.GetList();
+        }
+
+        [HttpGet("{jobCode}", Name = "GetPersonel")]
+        public ActionResult<Personel?> GetOne(int jobCode)
+        {
+            return personelService.GetOne(jobCode);
         }
     }
 }

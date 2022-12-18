@@ -4,6 +4,8 @@ namespace Cache.App.Service.Services.Interfaces
 {
     public interface IPersonelService
     {
-        IEnumerable<Personel> Get();
+        IEnumerable<Personel> GetList();
+
+        Personel? GetOne(int jobCode);
     }
 }
