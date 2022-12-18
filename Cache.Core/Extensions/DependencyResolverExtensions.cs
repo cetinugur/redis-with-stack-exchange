@@ -6,7 +6,7 @@ namespace Cache.Core.Extensions
 {
     public static class DependencyResolverExtensions
     {
-        public static IServiceCollection CacheCore(this IServiceCollection services)
+        public static IServiceCollection AddCacheCore(this IServiceCollection services)
         {
             services.AddScoped<IInterceptor, CacheInterceptor>();
             services.AddSingleton(new ProxyGenerator());

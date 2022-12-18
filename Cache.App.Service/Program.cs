@@ -1,4 +1,4 @@
-using Cache.Imp.Extensions;
+using Cache.App.Service.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -8,7 +8,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDependencyResolvers();
+builder.Services.AddDependencyResolvers(configuration);
 
 var app = builder.Build();
 

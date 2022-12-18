@@ -1,6 +1,6 @@
-﻿using Cache.Imp.Models;
+﻿using Cache.App.Service.Models;
 
-namespace Cache.Imp.Services.Interfaces
+namespace Cache.App.Service.Services.Interfaces
 {
     public interface IPersonelService
     {

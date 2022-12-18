@@ -1,8 +1,8 @@
-﻿using Cache.Imp.Models;
-using Cache.Imp.Services.Interfaces;
+﻿using Cache.App.Service.Models;
+using Cache.App.Service.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Cache.Imp.Controllers
+namespace Cache.App.Service.Controllers
 {
     [ApiController]
     [Route("[controller]")]

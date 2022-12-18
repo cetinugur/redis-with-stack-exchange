@@ -1,4 +1,4 @@
-﻿namespace Cache.Imp.Models
+﻿namespace Cache.App.Service.Models
 {
     public class Personel
     {

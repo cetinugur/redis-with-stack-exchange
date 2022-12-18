@@ -1,8 +1,8 @@
-﻿using Cache.Core.Attributes;
-using Cache.Imp.Models;
-using Cache.Imp.Services.Interfaces;
+﻿using Cache.App.Service.Models;
+using Cache.App.Service.Services.Interfaces;
+using Cache.Core.Attributes;
 
-namespace Cache.Imp.Services
+namespace Cache.App.Service.Services
 {
     public class PersonelService : IPersonelService
     {

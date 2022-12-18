@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cache.Core\Cache.Core.csproj" />
+    <ProjectReference Include="..\Cache.Redis\Cache.Redis.csproj" />
   </ItemGroup>
 
 </Project>
