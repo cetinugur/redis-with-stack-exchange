@@ -7,3 +7,5 @@
 * Redis implementation with StackExchange
 
 Aims to use generic repositories that use the AOP method. 
+
+The main goal of the project are providing less code and DRY principles.
