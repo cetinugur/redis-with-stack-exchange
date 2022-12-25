@@ -4,7 +4,7 @@
 
 * Castle Dynamic Proxy (joins .net DI container) to handle cross-cutting concern 
 
-* Redis implementation with StackExchange
+* Redis implementation with StackExchange.
 
 Aims to use generic repositories that use the AOP method. 
 
